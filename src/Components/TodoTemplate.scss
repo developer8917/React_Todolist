@@ -1,0 +1,22 @@
+.TodoTemplate{
+    width : 512px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    border-radius: 4px;
+    overflow: hidden;
+
+    .app-title{
+        background: #22b8cf;
+        color: white;
+        height: 4rem;
+        font-size: 1.5rem;
+        display: flex;  // 블록으로 쌓지않고 컨텐츠 영역으로 잡겠다(뭔소린지 모르겠다)
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content{
+        background: white;
+    }
+}
